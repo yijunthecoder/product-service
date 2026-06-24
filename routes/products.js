@@ -68,6 +68,8 @@ router.put('/:id', (req,res) => {
     product.name = name;
     product.price = price;
     product.category = category;
+
+    res.json(product);
     
 });
 
